@@ -1,0 +1,83 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('./IMG/download.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+section{
+    
+    background-image: url('./IMG/digital-postcallout-500x250-1573688506.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+#formAll{ 
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 98, 221);
+    border-radius: 30px;
+    margin: 15px;
+    padding: 40px;
+}
+ h1{
+     color: rgb(20, 20, 20);
+     border-radius: 10px;
+     align-self: center;
+     
+ }
+ #regHead{
+     align-self: center;
+     font-style: normal;
+     width: 300px;
+ }
+
+ .unitConverApp{
+     background-color:  rgb(17, 234, 250);
+    width: 600px;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    border-radius: 30px;
+
+ }
+
+ input{
+     border: 3px solid rgb(204, 245, 57);
+     border-radius: 10px;
+     height: 30px;
+ }
+
+    #input-type, #result-type{
+     padding: 10px 20px;
+     margin: 10px;
+     border-radius: 10px;
+ }
+ #converterHeading{
+ 
+     width: 600px;
+     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #submitBtn{
+     padding: 10px;
+     border-radius: 10px;
+ }
