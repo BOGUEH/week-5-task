@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    
+       
+     
+    <form name="form" id="form">
+        <div id="formAll">
+            <h1 id="regHead">REGISTER HERE</h1>
+        <div> 
+            <label for="fName">First name:</label><br>
+            <input type="text" id="fName" name="fName" placeholder="first name"  ><br>
+            <p id="fNameErr"></p>
+       </div>
+       <div>
+            <label for="lName">Last name:</label><br>
+            <input type="text" id="lName" name="lName" placeholder="last name" > 
+            <p id="lNameErr"></p>
+        </div>
+       <div>
+            <label for="userName">User Name:</label><br>
+            <input type="text" id="userName" name="UserName" placeholder="User Name" ><br>
+            <p id="uNameErre"></p>
+        </div>
+        
+        <div> 
+            <label for="email">email:</label> <br>
+            <input type="text" id="email" name="email" placeholder="ictyep@ihub.com"> <br>
+            <p id="emailErr"></p>
+        </div>
+        <div>
+            <lable for="password">password</lable><br>
+            <input type="password" id="password" name="password" placeholder="enter password"> <br>
+            <p id="pwErr"></p>
+        </div>
+        <div>
+            <lable for="password">Re-type password</lable> <br>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="confirm password"><br>
+            <p id="cpwErr"></p>
+        </div>
+               
+            <button type="submit" id="submitBtn"> Sign Up</button>
+        </div>
+
+  </form>
+
+  <script src="./validation.js"></script>
+  <!-- <script src="./test.js"></script> -->
+</body>
+</html>
